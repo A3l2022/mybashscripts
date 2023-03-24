@@ -4,7 +4,7 @@
 
 #Get cpu information:
 echo "CPU information"
-/proc/cpuinfo | grep "model name" |uniq
+cat /proc/cpuinfo | grep "model name" |uniq
 echo ""
 
 #Get ram information:
