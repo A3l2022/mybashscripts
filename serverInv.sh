@@ -3,7 +3,7 @@
 #This script helps get the cpu, ram, and disk capacity of a server.
 
 #Get cpu information:
-echo "CPU information"
+echo "CPU information: model name and number of CPU"
 cat /proc/cpuinfo | grep "model name" |uniq
 echo ""
 
