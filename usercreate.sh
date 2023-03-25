@@ -1,9 +1,8 @@
 #!/bin/bash
+#Script to create new users along with their home dir. 
+#Must replace with actual username value
 
-#Get the username from the users
-
-echo "Please enter your username: "
-
-#create the user without execute permission
-useradd $username -m -s /bin/bash
-echo "user created successfully"
+for g in u1 u2 u3 u4 u5;
+do
+useradd -m -s /bin/bash ${g}
+done 
